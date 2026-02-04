@@ -11,3 +11,5 @@ A small multi-page site generated with **Eleventy (11ty)** using **Nunjucks layo
 ```bash
 npm install
 npm run dev
+
+<p><a href="https://alichegini.github.io/templating/" target="_blank" rel="noopener noreferrer">Live demo</a></p>
