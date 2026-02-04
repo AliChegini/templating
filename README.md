@@ -7,11 +7,10 @@ A small multi-page site generated with **Eleventy (11ty)** using **Nunjucks layo
 - **Multi-page generation**: Home, About, Contact
 - **Static assets passthrough**: CSS/JS copied from `src/assets` into the build output
 
+## Live demo
+GitHub Pages: *(https://alichegini.github.io/templating/)*
+
 ## Run locally
 ```bash
 npm install
 npm run dev
-
-
-## Live Demo
-**Live demo:** https://alichegini.github.io/templating/
