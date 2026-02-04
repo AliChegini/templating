@@ -3,5 +3,5 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ title or "Templating Demo" }}</title>
   <meta name="description" content="{{ description or 'Eleventy + Nunjucks templating demo' }}" />
-  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="{{ (config.pathPrefix or '/') }}assets/css/style.css" />
 </head>

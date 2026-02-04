@@ -1,5 +1,4 @@
 module.exports = function (eleventyConfig) {
-  // Copy static assets to output
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
 
   return {
@@ -7,6 +6,7 @@ module.exports = function (eleventyConfig) {
       input: "src",
       output: "dist",
       includes: "_includes"
-    }
+    },
+    pathPrefix: process.env.ELEVENTY_BASE_PATH || "/"
   };
 };
